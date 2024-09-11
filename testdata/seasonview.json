@@ -1,0 +1,13 @@
+{
+  "espncricinfo_url": "https://www.espncricinfo.com/",
+  "searchCricketMatchCountry": "India",
+  "searchCricketMatchCountryInValidText": "No matches found for this season",
+  "cricketMatchTitles": {
+    "cricketMatchTitles" : "Cricket Match Title",
+    "oneDayinternationalTourCricket": "One-Day Internationals",
+    "twenty20internationalTourCricket":"Twenty20 Internationals"
+  },
+  "seasonView": {
+    "searchInvalidTextValidation": "No matches found for this season"
+  }
+}

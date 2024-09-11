@@ -1,0 +1,10 @@
+mvn clean install -Dgroups="mytag"
+mvn clean install -Dgroups="mytag | mytag2"
+mvn clean install -Dgroups="mytag & mytag2"
+mvn clean install -DexcludedGroups="mytag"
+mvn clean install -Dcucumber.filter.tags=@Complete
+mvn clean install -Dcucumber.filter.tags="@Complete and @APP_01"
+mvn clean install -Dcucumber.filter.tags="@Conplete or @Acceptead"
+
+mvn clean install -DbrowserName="chrome" -Dgroups="uat"
+mvn clean install -DbrowserName="edge" -Dgroups="uat"
