@@ -3,7 +3,7 @@ package com.espncricinfo.utils;
 import java.util.HashMap;
 import java.util.Map;
 
-public class KeyContext {
+public class ContentContext {
 
     private static final Map<String, String> map = new HashMap<>();
 

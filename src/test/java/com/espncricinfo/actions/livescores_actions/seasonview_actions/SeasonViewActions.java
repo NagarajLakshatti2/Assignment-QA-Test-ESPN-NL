@@ -3,7 +3,7 @@ package com.espncricinfo.actions.livescores_actions.seasonview_actions;
 import com.espncricinfo.basepage.BasePage;
 import com.espncricinfo.hooks.Hooks;
 import com.espncricinfo.pages.livescores_pages.SeasonViewLocators;
-import com.espncricinfo.utils.KeyContext;
+import com.espncricinfo.utils.ContentContext;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.support.PageFactory;
 
@@ -34,9 +34,9 @@ public class SeasonViewActions {
          * */
 
 //        var matchTitle = seasonViewLocators.seasonViewVerifyMatchTypeTitle.getText();
-//        assertAll(KeyContext.get("cricketMatchTitles"),
-//                () -> assertEquals(KeyContext.get("oneDayinternationalTourCricket"), matchTitle, "One-Day Internationals failing intensely"),
-//                () -> assertEquals(KeyContext.get("oneDayinternationalTourCricket").toUpperCase(), matchTitle, "ONE-DAY INTERNATIONALS"),
+//        assertAll(ContentContext.get("cricketMatchTitles"),
+//                () -> assertEquals(ContentContext.get("oneDayinternationalTourCricket"), matchTitle, "One-Day Internationals failing intensely"),
+//                () -> assertEquals(ContentContext.get("oneDayinternationalTourCricket").toUpperCase(), matchTitle, "ONE-DAY INTERNATIONALS"),
 //                () -> assertNotNull(matchTitle)
 //        );
     }
@@ -45,7 +45,7 @@ public class SeasonViewActions {
         basePage.waitForVisibility(seasonViewLocators.seasonViewSearchMatchInValidText);
         /* HardAssert below written when multiple elements text validation as expected.
          * */
-        Assertions.assertEquals(KeyContext.get("searchCricketMatchCountryInValidText"), seasonViewLocators.seasonViewSearchMatchInValidText.getText());
+        Assertions.assertEquals(ContentContext.get("searchCricketMatchCountryInValidText"), seasonViewLocators.seasonViewSearchMatchInValidText.getText());
         hooks.customTakeScreenshot();
     }
 }

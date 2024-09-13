@@ -14,12 +14,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-<!--    <properties>-->
-<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-<!--        <maven.compiler.target>1.8</maven.compiler.target>-->
-<!--        <maven.compiler.source>1.8</maven.compiler.source>-->
-<!--    </properties>-->
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -28,7 +22,7 @@
             <version>4.23.1</version>
         </dependency>
 
-        <!-- Web Driver Manager -->
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -49,6 +43,7 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
@@ -92,12 +87,6 @@
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.2</version>
-            <scope>test</scope>
         </dependency>
 
 
@@ -228,7 +217,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Espncricinfo-Automation-Demo</projectName>
+                            <projectName>Assignment-QA_Test_ESPN_NL</projectName>
                             <outputDirectory>${project.build.directory}/</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>

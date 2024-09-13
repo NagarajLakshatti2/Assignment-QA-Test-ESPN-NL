@@ -1,50 +1,50 @@
-Sep 12, 2024 1:51:40 AM com.espncricinfo.utils.Log4j <init>
+Sep 13, 2024 2:04:48 PM com.espncricinfo.utils.Log4j <init>
 INFO: ============================ Logger Start =========================
-Sep 12, 2024 1:51:40 AM com.espncricinfo.globalparameters.GlobalParameters initializeGlobalParams
+Sep 13, 2024 2:04:48 PM com.espncricinfo.globalparameters.GlobalParameters initializeGlobalParams
 INFO: Browser init: chrome
-Sep 12, 2024 1:51:40 AM com.espncricinfo.drivers.DriverClass setUpDriver
+Sep 13, 2024 2:04:48 PM com.espncricinfo.drivers.DriverClass setUpDriver
 INFO: setUpDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.hooks.Hooks before
+Sep 13, 2024 2:04:50 PM com.espncricinfo.hooks.Hooks before
 INFO: Before: Execute method before each scenario
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: https://www.espncricinfo.com/
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: India
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: Cricket Match Title
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: One-Day Internationals
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: Twenty20 Internationals
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: No matches found for this season
-Sep 12, 2024 1:51:41 AM com.userprofiledata.ReadUserTestData setTestDataContext
+Sep 13, 2024 2:04:50 PM com.userprofiledata.ReadUserTestData setTestDataContext
 INFO: No matches found for this season
-Sep 12, 2024 1:51:41 AM com.espncricinfo.drivers.DriverClass openPage
+Sep 13, 2024 2:04:50 PM com.espncricinfo.drivers.DriverClass openPage
 INFO: url: https://www.espncricinfo.com/
-Sep 12, 2024 1:51:59 AM com.espncricinfo.basepage.BasePage click
+Sep 13, 2024 2:06:20 PM com.espncricinfo.basepage.BasePage click
 INFO: search icon clicked
-Sep 12, 2024 1:51:59 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:06:20 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:59 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:06:20 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:59 AM com.espncricinfo.drivers.DriverClass getDriver
+Sep 13, 2024 2:06:20 PM com.espncricinfo.drivers.DriverClass getDriver
 INFO: getDriver
-Sep 12, 2024 1:51:59 AM com.espncricinfo.drivers.DriverClass tearDown
+Sep 13, 2024 2:06:21 PM com.espncricinfo.drivers.DriverClass tearDown
 INFO: tearDown
